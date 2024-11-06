@@ -1,0 +1,42 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios18.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name HDI_Charts_swift
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import HDI_Charts_swift
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class Assum {
+  public static func sayHelloWorld()
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct RadialBarChartView<DataType, LabelType> : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var data: [DataType]
+  @_Concurrency.MainActor @preconcurrency public var frameSize: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var minValue: Swift.Double
+  @_Concurrency.MainActor @preconcurrency public var maxValue: Swift.Double
+  @_Concurrency.MainActor @preconcurrency public var iscolorgra: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var minColor: SwiftUICore.Color
+  @_Concurrency.MainActor @preconcurrency public var maxColor: SwiftUICore.Color
+  @_Concurrency.MainActor @preconcurrency public var labelKeyPath: Swift.KeyPath<DataType, LabelType>
+  @_Concurrency.MainActor @preconcurrency public var minValueKeyPath: Swift.KeyPath<DataType, Swift.Double>
+  @_Concurrency.MainActor @preconcurrency public var maxValueKeyPath: Swift.KeyPath<DataType, Swift.Double>
+  @_Concurrency.MainActor @preconcurrency public var barWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var cornerRadius: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var xaxis: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public var colorForTemperature: (Swift.Int) -> SwiftUICore.Color
+  @_Concurrency.MainActor @preconcurrency public init(data: [DataType], frameSize: CoreFoundation.CGFloat = 400, minValue: Swift.Double, maxValue: Swift.Double, iscolorgra: Swift.Bool, minColor: SwiftUICore.Color, maxColor: SwiftUICore.Color, labelKeyPath: Swift.KeyPath<DataType, LabelType>, minValueKeyPath: Swift.KeyPath<DataType, Swift.Double>, maxValueKeyPath: Swift.KeyPath<DataType, Swift.Double>, barWidth: CoreFoundation.CGFloat = 30, cornerRadius: CoreFoundation.CGFloat = 5, xaxis: Swift.Int = 0, colorForTemperature: ((Swift.Int) -> SwiftUICore.Color)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s16HDI_Charts_swift18RadialBarChartViewV4bodyQrvp", 0) __<DataType, LabelType>
+}
+extension SwiftUICore.Color {
+  public init(hex: Swift.String)
+  public static func lerp(from start: SwiftUICore.Color, to end: SwiftUICore.Color, fraction: Swift.Double) -> SwiftUICore.Color
+  public func components() -> (red: Swift.Double, green: Swift.Double, blue: Swift.Double, opacity: Swift.Double)
+}
+extension HDI_Charts_swift.RadialBarChartView : Swift.Sendable {}

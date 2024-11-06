@@ -1,0 +1,2186 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HDI_Charts_swift",
+    "printedName": "HDI_Charts_swift",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Assum",
+        "printedName": "Assum",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sayHelloWorld",
+            "printedName": "sayHelloWorld()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HDI_Charts_swift5AssumC13sayHelloWorldyyFZ",
+            "mangledName": "$s16HDI_Charts_swift5AssumC13sayHelloWorldyyFZ",
+            "moduleName": "HDI_Charts_swift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16HDI_Charts_swift5AssumC",
+        "mangledName": "$s16HDI_Charts_swift5AssumC",
+        "moduleName": "HDI_Charts_swift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HDI_Charts_swift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RadialBarChartView",
+        "printedName": "RadialBarChartView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV4dataSayxGvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV4dataSayxGvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV4dataSayxGvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV4dataSayxGvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV4dataSayxGvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV4dataSayxGvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV4dataSayxGvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV4dataSayxGvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frameSize",
+            "printedName": "frameSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV9frameSize14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV9frameSize12CoreGraphics7CGFloatVvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV9frameSize14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV9frameSize12CoreGraphics7CGFloatVvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV9frameSize14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV9frameSize12CoreGraphics7CGFloatVvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV9frameSize14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV9frameSize12CoreGraphics7CGFloatVvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minValue",
+            "printedName": "minValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8minValueSdvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8minValueSdvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8minValueSdvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8minValueSdvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8minValueSdvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8minValueSdvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8minValueSdvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8minValueSdvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxValue",
+            "printedName": "maxValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8maxValueSdvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8maxValueSdvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8maxValueSdvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8maxValueSdvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8maxValueSdvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8maxValueSdvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8maxValueSdvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8maxValueSdvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iscolorgra",
+            "printedName": "iscolorgra",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV10iscolorgraSbvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV10iscolorgraSbvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV10iscolorgraSbvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV10iscolorgraSbvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV10iscolorgraSbvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV10iscolorgraSbvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV10iscolorgraSbvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV10iscolorgraSbvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minColor",
+            "printedName": "minColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8minColor7SwiftUI0I0Vvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8minColor7SwiftUI0I0Vvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8minColor7SwiftUI0I0Vvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8minColor7SwiftUI0I0Vvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8minColor7SwiftUI0I0Vvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8minColor7SwiftUI0I0Vvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8minColor7SwiftUI0I0VvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8minColor7SwiftUI0I0VvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxColor",
+            "printedName": "maxColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8maxColor7SwiftUI0I0Vvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8maxColor7SwiftUI0I0Vvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8maxColor7SwiftUI0I0Vvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8maxColor7SwiftUI0I0Vvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8maxColor7SwiftUI0I0Vvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8maxColor7SwiftUI0I0Vvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8maxColor7SwiftUI0I0VvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8maxColor7SwiftUI0I0VvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "labelKeyPath",
+            "printedName": "labelKeyPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV12labelKeyPaths0iJ0Cyxq_Gvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV12labelKeyPaths0iJ0Cyxq_Gvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV12labelKeyPaths0iJ0Cyxq_Gvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV12labelKeyPaths0iJ0Cyxq_Gvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV12labelKeyPaths0iJ0Cyxq_Gvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV12labelKeyPaths0iJ0Cyxq_Gvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV12labelKeyPaths0iJ0Cyxq_GvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV12labelKeyPaths0iJ0Cyxq_GvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minValueKeyPath",
+            "printedName": "minValueKeyPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, Swift.Double>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV15minValueKeyPaths0jK0CyxSdGvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV15minValueKeyPaths0jK0CyxSdGvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, Swift.Double>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV15minValueKeyPaths0jK0CyxSdGvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV15minValueKeyPaths0jK0CyxSdGvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, Swift.Double>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV15minValueKeyPaths0jK0CyxSdGvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV15minValueKeyPaths0jK0CyxSdGvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV15minValueKeyPaths0jK0CyxSdGvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV15minValueKeyPaths0jK0CyxSdGvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxValueKeyPath",
+            "printedName": "maxValueKeyPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, Swift.Double>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV15maxValueKeyPaths0jK0CyxSdGvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV15maxValueKeyPaths0jK0CyxSdGvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, Swift.Double>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV15maxValueKeyPaths0jK0CyxSdGvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV15maxValueKeyPaths0jK0CyxSdGvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, Swift.Double>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV15maxValueKeyPaths0jK0CyxSdGvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV15maxValueKeyPaths0jK0CyxSdGvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV15maxValueKeyPaths0jK0CyxSdGvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV15maxValueKeyPaths0jK0CyxSdGvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "barWidth",
+            "printedName": "barWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8barWidth14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8barWidth12CoreGraphics7CGFloatVvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8barWidth14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8barWidth12CoreGraphics7CGFloatVvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8barWidth14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8barWidth12CoreGraphics7CGFloatVvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV8barWidth14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV8barWidth12CoreGraphics7CGFloatVvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV12cornerRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV12cornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV12cornerRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV12cornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV12cornerRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV12cornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV12cornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV12cornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "xaxis",
+            "printedName": "xaxis",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV5xaxisSivp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV5xaxisSivp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV5xaxisSivg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV5xaxisSivg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV5xaxisSivs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV5xaxisSivs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV5xaxisSivM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV5xaxisSivM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorForTemperature",
+            "printedName": "colorForTemperature",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int) -> SwiftUI.Color",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV19colorForTemperaturey7SwiftUI5ColorVSicvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV19colorForTemperaturey7SwiftUI5ColorVSicvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> SwiftUI.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV19colorForTemperaturey7SwiftUI5ColorVSicvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV19colorForTemperaturey7SwiftUI5ColorVSicvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> SwiftUI.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV19colorForTemperaturey7SwiftUI5ColorVSicvs",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV19colorForTemperaturey7SwiftUI5ColorVSicvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV19colorForTemperaturey7SwiftUI5ColorVSicvM",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV19colorForTemperaturey7SwiftUI5ColorVSicvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:frameSize:minValue:maxValue:iscolorgra:minColor:maxColor:labelKeyPath:minValueKeyPath:maxValueKeyPath:barWidth:cornerRadius:xaxis:colorForTemperature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RadialBarChartView",
+                "printedName": "HDI_Charts_swift.RadialBarChartView<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, Swift.Double>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, Swift.Double>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int) -> SwiftUI.Color)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> SwiftUI.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV4data9frameSize8minValue03maxL010iscolorgra0K5Color0mO012labelKeyPath0klqR00mlqR08barWidth12cornerRadius5xaxis19colorForTemperatureACyxq_GSayxG_14CoreFoundation7CGFloatVS2dSb7SwiftUI0O0VAYs0qR0Cyxq_GA_yxSdGA1_A2VSiAYSicSgtcfc",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV4data9frameSize8minValue03maxL010iscolorgra0K5Color0mO012labelKeyPath0klqR00mlqR08barWidth12cornerRadius5xaxis19colorForTemperatureACyxq_GSayxG_12CoreGraphics7CGFloatVS2dSb7SwiftUI0O0VAYs0qR0Cyxq_GA_yxSdGA1_A2VSiAYSicSgtcfc",
+            "moduleName": "HDI_Charts_swift",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<DataType, LabelType>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift18RadialBarChartViewV4bodyQrvp",
+            "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV4bodyQrvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift18RadialBarChartViewV4bodyQrvg",
+                "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV4bodyQrvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<DataType, LabelType>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16HDI_Charts_swift18RadialBarChartViewV",
+        "mangledName": "$s16HDI_Charts_swift18RadialBarChartViewV",
+        "moduleName": "HDI_Charts_swift",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<DataType, LabelType>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Color",
+        "printedName": "Color",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI5ColorV16HDI_Charts_swiftE3hexACSS_tcfc",
+            "mangledName": "$s7SwiftUI5ColorV16HDI_Charts_swiftE3hexACSS_tcfc",
+            "moduleName": "HDI_Charts_swift",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "lerp",
+            "printedName": "lerp(from:to:fraction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI5ColorV16HDI_Charts_swiftE4lerp4from2to8fractionA2C_ACSdtFZ",
+            "mangledName": "$s7SwiftUI5ColorV16HDI_Charts_swiftE4lerp4from2to8fractionA2C_ACSdtFZ",
+            "moduleName": "HDI_Charts_swift",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "components",
+            "printedName": "components()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(red: Swift.Double, green: Swift.Double, blue: Swift.Double, opacity: Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI5ColorV16HDI_Charts_swiftE10componentsSd3red_Sd5greenSd4blueSd7opacitytyF",
+            "mangledName": "$s7SwiftUI5ColorV16HDI_Charts_swiftE10componentsSd3red_Sd5greenSd4blueSd7opacitytyF",
+            "moduleName": "HDI_Charts_swift",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI5ColorV",
+        "mangledName": "$s7SwiftUI5ColorV",
+        "moduleName": "SwiftUICore",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ShapeStyle",
+            "printedName": "ShapeStyle",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Resolved",
+                "printedName": "Resolved",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Resolved",
+                    "printedName": "SwiftUI.Color.Resolved",
+                    "usr": "s:7SwiftUI5ColorV8ResolvedV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10ShapeStyleP",
+            "mangledName": "$s7SwiftUI10ShapeStyleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1822,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2193,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2235,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2265,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2480,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2797,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2833,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2857,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

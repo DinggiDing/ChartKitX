@@ -1,0 +1,11 @@
+framework module HDI_Charts_swift {
+  umbrella header "HDI_Charts_swift.h"
+  export *
+
+  module * { export * }
+}
+
+module HDI_Charts_swift.Swift {
+  header "HDI_Charts_swift-Swift.h"
+  requires objc
+}
