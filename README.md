@@ -1,9 +1,9 @@
 **ChartKitX** : Charts that are not available in Swift's Charts framework.
 
 
-https://img.shields.io/badge/Xcode_16.0+-blue
-https://img.shields.io/badge/iOS_18.0+-blue
-https://img.shields.io/badge/Swift_5.0+-orange
+https://img.shields.io/badge/Xcode-16.0+-blue
+https://img.shields.io/badge/iOS-18.0+-blue
+https://img.shields.io/badge/Swift-5.0+-orange
 
 ## Radial Range Chart
 
