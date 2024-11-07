@@ -32,7 +32,7 @@
 
 <img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/69b3bc4e-33fc-464a-a87b-adeceba94117">
 
-```
+```swift
 ZStack {
     RadialBarChartView(
         data: data3,
