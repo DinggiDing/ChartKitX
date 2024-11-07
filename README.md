@@ -1,4 +1,4 @@
-![chartkitx-high-resolution-logo](https://github.com/user-attachments/assets/08e89b89-cf90-4b9f-8a6e-2978da5c77de)
+<img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/08e89b89-cf90-4b9f-8a6e-2978da5c77de">
 
 
 **ChartKitX** : Charts that are not available in Swift's Charts framework.
