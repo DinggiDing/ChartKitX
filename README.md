@@ -9,7 +9,6 @@
 
 ### Parameter
 
-```
 - `data` : The data source for the chart, an array of `DataType` elements.
 - `frameSize`: The size of the chart's frame, defining the overall width and height. Default is 400.
 - `minValue` : The minimum value for the data range, used for normalizing data values.
@@ -23,7 +22,6 @@
 - barWidth: The width of each bar in the radial chart. Default is 30.
 - cornerRadius: The corner radius for each bar, to apply rounded corners. Default is 5.
 - xaxis: The number of labels to display along the x-axis, spaced evenly. If set to 0, all labels are displayed.
-```
 
 ### Example
 
