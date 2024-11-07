@@ -14,8 +14,8 @@
 - `minValue` (`CGFloat`) : The minimum value for the data range, used for normalizing data values.
 - `maxValue` (*CGFloat*) : The maximum value for the data range, used for normalizing data values.
 - `iscolorgra` : A Boolean flag to indicate whether to apply a color gradient to the bars.
-- `minColor` : The color for the lowest values on the gradient (or single color if `iscolorgra` is false).
-- `maxColor` : The color for the highest values on the gradient (used only if `iscolorgra` is true).
+- `minColor` : The color for the lowest values on the gradient
+- `maxColor` : The color for the highest values on the gradient
 - `labelKeyPath` : A key path for accessing the label associated with each data element, used to display labels along the x-axis.
 - `minValueKeyPath` : A key path for accessing the minimum value of each data element, used to determine the start point of each radial bar.
 - `maxValueKeyPath` : A key path for accessing the maximum value of each data element, used to determine the end point of each radial bar.
