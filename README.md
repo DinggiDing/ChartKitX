@@ -1,4 +1,3 @@
-//<img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/08e89b89-cf90-4b9f-8a6e-2978da5c77de">
 <img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/3b061069-c785-4d1c-b2cf-8797bd784c2c">
 
 **ChartKitX** : Charts that are not available in Swift's Charts framework.
