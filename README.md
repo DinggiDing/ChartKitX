@@ -30,7 +30,7 @@ https://img.shields.io/badge/Swift_5.0+-orange
 
 ### Example
 
-<img width="788" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/69b3bc4e-33fc-464a-a87b-adeceba94117">
+<img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/69b3bc4e-33fc-464a-a87b-adeceba94117">
 
 ```
 ZStack {
