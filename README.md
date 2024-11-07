@@ -1,7 +1,7 @@
 <img width="400" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/3b061069-c785-4d1c-b2cf-8797bd784c2c">
 
-&adsp;
-&adsp;
+<br/>
+<br/>
 
 **ChartKitX** : Charts that are not available in Swift's Charts framework.
 
