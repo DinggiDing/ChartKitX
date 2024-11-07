@@ -12,7 +12,7 @@
 - `data` : The data source for the chart, an array of `DataType` elements.
 - `frameSize` (`CGFloat`): The size of the chart's frame, defining the overall width and height. Default is 400.
 - `minValue` (`CGFloat`) : The minimum value for the data range, used for normalizing data values.
-- `maxValue` (*CGFloat*) : The maximum value for the data range, used for normalizing data values.
+- `maxValue` : (`CGFloat`) The maximum value for the data range, used for normalizing data values.
 - `iscolorgra` : A Boolean flag to indicate whether to apply a color gradient to the bars.
 - `minColor` : The color for the lowest values on the gradient
 - `maxColor` : The color for the highest values on the gradient
