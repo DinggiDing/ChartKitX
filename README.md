@@ -66,3 +66,32 @@ ZStack {
     )
 }
 ```
+<br/>
+<br/>
+
+## Calendar Heatmap
+
+### Parameter
+
+- `data` : Chart data source, an array of DataType elements.
+- `frameSize` : (`CGFloat`) Sets the overall height of the heatmap view. Default is 400.
+- `maxColor` : (`Color`) The color representing the highest intensity level. The color opacity adjusts based on the intensity.
+- `intensityKeyPath` : (`KeyPath<DataType, Int>`) Key path to an Int value in each DataType item, representing the cell's intensity.
+- `dateKeyPath` : (`KeyPath<DataType, Date>`) Key path to a Date in each DataType item, aligning the cells by date.
+- `columns` : (`Int`) Number of columns in the heatmap, typically 7 for days of the week. Default is 7.
+- `cellSize` : (`CGFloat`) Size of each cell in the heatmap. Default is 20.
+- `spacing` : (`CGFloat`) Spacing between cells. Default is 4.
+
+### Example
+
+<img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/6f859dad-37e6-41f1-be97-ffaada18dbcb">
+
+```swift
+ GenericHeatmapView(
+    data: sampleData,
+    frameSize: 200,
+    maxColor: .green,
+    intensityKeyPath: \.count,
+    dateKeyPath: \.date
+)
+```
