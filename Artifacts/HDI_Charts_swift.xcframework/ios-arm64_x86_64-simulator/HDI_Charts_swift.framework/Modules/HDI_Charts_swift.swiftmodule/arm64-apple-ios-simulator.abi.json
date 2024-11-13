@@ -5,6 +5,992 @@
     "printedName": "HDI_Charts_swift",
     "children": [
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HDI_Charts_swift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CalendarHeatmapView",
+        "printedName": "CalendarHeatmapView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV4dataSayxGvp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV4dataSayxGvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV4dataSayxGvg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV4dataSayxGvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV4dataSayxGvs",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV4dataSayxGvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV4dataSayxGvM",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV4dataSayxGvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frameSize",
+            "printedName": "frameSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV9frameSize14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV9frameSize12CoreGraphics7CGFloatVvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV9frameSize14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV9frameSize12CoreGraphics7CGFloatVvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV9frameSize14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV9frameSize12CoreGraphics7CGFloatVvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV9frameSize14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV9frameSize12CoreGraphics7CGFloatVvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxColor",
+            "printedName": "maxColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV8maxColor7SwiftUI0H0Vvp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV8maxColor7SwiftUI0H0Vvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV8maxColor7SwiftUI0H0Vvg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV8maxColor7SwiftUI0H0Vvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV8maxColor7SwiftUI0H0Vvs",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV8maxColor7SwiftUI0H0Vvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV8maxColor7SwiftUI0H0VvM",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV8maxColor7SwiftUI0H0VvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "intensityKeyPath",
+            "printedName": "intensityKeyPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, Swift.Int>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV16intensityKeyPaths0hI0CyxSiGvp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV16intensityKeyPaths0hI0CyxSiGvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV16intensityKeyPaths0hI0CyxSiGvg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV16intensityKeyPaths0hI0CyxSiGvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV16intensityKeyPaths0hI0CyxSiGvs",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV16intensityKeyPaths0hI0CyxSiGvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV16intensityKeyPaths0hI0CyxSiGvM",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV16intensityKeyPaths0hI0CyxSiGvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dateKeyPath",
+            "printedName": "dateKeyPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, Foundation.Date>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV11dateKeyPaths0hI0Cyx10Foundation4DateVGvp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV11dateKeyPaths0hI0Cyx10Foundation4DateVGvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, Foundation.Date>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV11dateKeyPaths0hI0Cyx10Foundation4DateVGvg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV11dateKeyPaths0hI0Cyx10Foundation4DateVGvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPath",
+                    "printedName": "Swift.KeyPath<τ_0_0, Foundation.Date>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:s7KeyPathC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV11dateKeyPaths0hI0Cyx10Foundation4DateVGvs",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV11dateKeyPaths0hI0Cyx10Foundation4DateVGvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV11dateKeyPaths0hI0Cyx10Foundation4DateVGvM",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV11dateKeyPaths0hI0Cyx10Foundation4DateVGvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "columns",
+            "printedName": "columns",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV7columnsSivp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV7columnsSivp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV7columnsSivg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV7columnsSivg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV7columnsSivs",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV7columnsSivs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV7columnsSivM",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV7columnsSivM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cellSize",
+            "printedName": "cellSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV8cellSize14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV8cellSize12CoreGraphics7CGFloatVvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV8cellSize14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV8cellSize12CoreGraphics7CGFloatVvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV8cellSize14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV8cellSize12CoreGraphics7CGFloatVvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV8cellSize14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV8cellSize12CoreGraphics7CGFloatVvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "spacing",
+            "printedName": "spacing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV7spacing14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV7spacing12CoreGraphics7CGFloatVvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV7spacing14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV7spacing12CoreGraphics7CGFloatVvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV7spacing14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV7spacing12CoreGraphics7CGFloatVvs",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV7spacing14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV7spacing12CoreGraphics7CGFloatVvM",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV4bodyQrvp",
+            "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV4bodyQrvp",
+            "moduleName": "HDI_Charts_swift",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV4bodyQrvg",
+                "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV4bodyQrvg",
+                "moduleName": "HDI_Charts_swift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<DataType>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16HDI_Charts_swift19CalendarHeatmapViewV",
+        "mangledName": "$s16HDI_Charts_swift19CalendarHeatmapViewV",
+        "moduleName": "HDI_Charts_swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<DataType>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Assum",
         "printedName": "Assum",
@@ -2127,58 +3113,100 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/Heatmap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1137,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/Heatmap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1310,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/Heatmap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1347,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/Heatmap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1384,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/Heatmap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1517,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/Heatmap.swift",
+      "kind": "Array",
+      "offset": 1696,
+      "length": 21,
+      "value": "[\"Mon\", \"Wed\", \"Fri\"]"
+    },
+    {
       "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 1822,
+      "offset": 2034,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 2193,
+      "offset": 2405,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 2235,
+      "offset": 2447,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 2265,
+      "offset": 2477,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 2480,
+      "offset": 2692,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 2797,
+      "offset": 3009,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 2833,
+      "offset": 3045,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/seongjae\/Desktop\/mac\/ios\/HDI_Charts_swift\/HDI_Charts_swift\/RadialRangeChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 2857,
+      "offset": 3069,
       "length": 1,
       "value": "0"
     }

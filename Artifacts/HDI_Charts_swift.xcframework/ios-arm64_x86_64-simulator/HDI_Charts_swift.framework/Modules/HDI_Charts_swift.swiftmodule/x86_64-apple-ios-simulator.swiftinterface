@@ -8,6 +8,21 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct CalendarHeatmapView<DataType> : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var data: [DataType]
+  @_Concurrency.MainActor @preconcurrency public var frameSize: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var maxColor: SwiftUICore.Color
+  @_Concurrency.MainActor @preconcurrency public var intensityKeyPath: Swift.KeyPath<DataType, Swift.Int>
+  @_Concurrency.MainActor @preconcurrency public var dateKeyPath: Swift.KeyPath<DataType, Foundation.Date>
+  @_Concurrency.MainActor @preconcurrency public var columns: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public var cellSize: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var spacing: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s16HDI_Charts_swift19CalendarHeatmapViewV4bodyQrvp", 0) __<DataType>
+}
 @_hasMissingDesignatedInitializers public class Assum {
   public static func sayHelloWorld()
   @objc deinit
@@ -39,4 +54,5 @@ extension SwiftUICore.Color {
   public static func lerp(from start: SwiftUICore.Color, to end: SwiftUICore.Color, fraction: Swift.Double) -> SwiftUICore.Color
   public func components() -> (red: Swift.Double, green: Swift.Double, blue: Swift.Double, opacity: Swift.Double)
 }
+extension HDI_Charts_swift.CalendarHeatmapView : Swift.Sendable {}
 extension HDI_Charts_swift.RadialBarChartView : Swift.Sendable {}
