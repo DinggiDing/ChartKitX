@@ -84,7 +84,7 @@ ZStack {
 
 ### Example
 
-<img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/6f859dad-37e6-41f1-be97-ffaada18dbcb">
+<img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/f4d8f457-1cfc-4af7-8092-0472e00d8c7c">
 
 ```swift
  GenericHeatmapView(
