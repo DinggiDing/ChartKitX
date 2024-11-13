@@ -5,6 +5,61 @@
     "printedName": "HDI_Charts_swift",
     "children": [
       {
+        "kind": "TypeDecl",
+        "name": "Assum",
+        "printedName": "Assum",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sayHelloWorld",
+            "printedName": "sayHelloWorld()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HDI_Charts_swift5AssumC13sayHelloWorldyyFZ",
+            "mangledName": "$s16HDI_Charts_swift5AssumC13sayHelloWorldyyFZ",
+            "moduleName": "HDI_Charts_swift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16HDI_Charts_swift5AssumC",
+        "mangledName": "$s16HDI_Charts_swift5AssumC",
+        "moduleName": "HDI_Charts_swift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -987,61 +1042,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Assum",
-        "printedName": "Assum",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "sayHelloWorld",
-            "printedName": "sayHelloWorld()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16HDI_Charts_swift5AssumC13sayHelloWorldyyFZ",
-            "mangledName": "$s16HDI_Charts_swift5AssumC13sayHelloWorldyyFZ",
-            "moduleName": "HDI_Charts_swift",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16HDI_Charts_swift5AssumC",
-        "mangledName": "$s16HDI_Charts_swift5AssumC",
-        "moduleName": "HDI_Charts_swift",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },

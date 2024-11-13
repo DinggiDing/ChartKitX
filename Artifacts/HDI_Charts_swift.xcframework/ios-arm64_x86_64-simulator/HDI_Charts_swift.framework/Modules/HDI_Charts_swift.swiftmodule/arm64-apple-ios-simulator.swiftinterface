@@ -8,6 +8,10 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class Assum {
+  public static func sayHelloWorld()
+  @objc deinit
+}
 @_Concurrency.MainActor @preconcurrency public struct CalendarHeatmapView<DataType> : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var data: [DataType]
   @_Concurrency.MainActor @preconcurrency public var frameSize: CoreFoundation.CGFloat
@@ -22,10 +26,6 @@ import _SwiftConcurrencyShims
   }
   @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s16HDI_Charts_swift19CalendarHeatmapViewV4bodyQrvp", 0) __<DataType>
-}
-@_hasMissingDesignatedInitializers public class Assum {
-  public static func sayHelloWorld()
-  @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct RadialBarChartView<DataType, LabelType> : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var data: [DataType]

@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/HDI_Charts_swift.framework/HDI_Charts_swift</key>
 		<data>
-		QuzE/ypwkuygYfnSrOQWisstxrw=
+		R2n9CxK2C3Nexgo301q8GxMtKEo=
 		</data>
 		<key>ios-arm64/HDI_Charts_swift.framework/Headers/HDI_Charts_swift-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>ios-arm64/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		DsrSl5v3rXY08iJsPXykfMP/+r4=
+		8w2m0fIXyAGX8qLVfxt0KQ3xMbw=
 		</data>
 		<key>ios-arm64/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		VJptd5HvxHiljDEMySqdgTepGOk=
+		CUJn2bIR8OwTT7+AfRzNXBtAs9Q=
 		</data>
 		<key>ios-arm64/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VJptd5HvxHiljDEMySqdgTepGOk=
+		CUJn2bIR8OwTT7+AfRzNXBtAs9Q=
 		</data>
 		<key>ios-arm64/HDI_Charts_swift.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ios-arm64/HDI_Charts_swift.framework/_CodeSignature/CodeResources</key>
 		<data>
-		+0wc4jGU8eQcj4Vz2vSwKpY2cxs=
+		JHkv9ZeapFEVk7LMf0nf6F5R8HA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/HDI_Charts_swift</key>
 		<data>
-		VCCoF7L8ojfjuvZP3s+BqOl3HTI=
+		9GLEysbPWapxxEaQO0673bRmSj8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Headers/HDI_Charts_swift-Swift.h</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DsrSl5v3rXY08iJsPXykfMP/+r4=
+		8w2m0fIXyAGX8qLVfxt0KQ3xMbw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nhPsGU/B1VhuCD9Nf/QCOkxO5bY=
+		6phJjLnKPfZHaGKybiSj9ileRKc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -74,15 +74,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nhPsGU/B1VhuCD9Nf/QCOkxO5bY=
+		6phJjLnKPfZHaGKybiSj9ileRKc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DsrSl5v3rXY08iJsPXykfMP/+r4=
+		8w2m0fIXyAGX8qLVfxt0KQ3xMbw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8L6m7M42EGcbnaj4KeCWcrn/Tao=
+		cYP5Sx2uY0bjSqOfiS9FkEINU5U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8L6m7M42EGcbnaj4KeCWcrn/Tao=
+		cYP5Sx2uY0bjSqOfiS9FkEINU5U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/_CodeSignature/CodeResources</key>
 		<data>
-		FHAdab4jqbvXFNgfKcpJ3qDqlBI=
+		GvPo99GJfvH5Mhnaz1ja5HNrsuA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QuzE/ypwkuygYfnSrOQWisstxrw=
+			R2n9CxK2C3Nexgo301q8GxMtKEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			x/BrYJpYwLW6t3nhmmsf2v8v8GpA0w5VoeftiZqzfEg=
+			GLMv8KQy/jIfK60fVZcIUHmuQISghpqsuS1VIbIGNlc=
 			</data>
 		</dict>
 		<key>ios-arm64/HDI_Charts_swift.framework/Headers/HDI_Charts_swift-Swift.h</key>
@@ -151,22 +151,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DsrSl5v3rXY08iJsPXykfMP/+r4=
+			8w2m0fIXyAGX8qLVfxt0KQ3xMbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ehk3PSZmoqCcilukfP1M1iDdn6+aM6zJSmE/a/RBkCs=
+			QG/wXg9KG331WAX+1fn/frDkh2GAA+BQJ/9gjadlFuY=
 			</data>
 		</dict>
 		<key>ios-arm64/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VJptd5HvxHiljDEMySqdgTepGOk=
+			CUJn2bIR8OwTT7+AfRzNXBtAs9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			yS5uw+OBOys0OHNBSEnAkBrXaartMesDs3aeDMWSEV8=
+			Lk8/zSwNHZ/Tt4fUrf87Xy2uPZN2jCyoEPnctDBHehE=
 			</data>
 		</dict>
 		<key>ios-arm64/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -184,11 +184,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VJptd5HvxHiljDEMySqdgTepGOk=
+			CUJn2bIR8OwTT7+AfRzNXBtAs9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			yS5uw+OBOys0OHNBSEnAkBrXaartMesDs3aeDMWSEV8=
+			Lk8/zSwNHZ/Tt4fUrf87Xy2uPZN2jCyoEPnctDBHehE=
 			</data>
 		</dict>
 		<key>ios-arm64/HDI_Charts_swift.framework/Modules/module.modulemap</key>
@@ -206,22 +206,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+0wc4jGU8eQcj4Vz2vSwKpY2cxs=
+			JHkv9ZeapFEVk7LMf0nf6F5R8HA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fdiWJqns7rwf/GFVnFTm+2YsOKd/NqKKrLdE9p3rhpY=
+			4/RGZiuu/8WFMGfweQWul5KSdLr44JXk2rEqEKNAtqY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/HDI_Charts_swift</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VCCoF7L8ojfjuvZP3s+BqOl3HTI=
+			9GLEysbPWapxxEaQO0673bRmSj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			j26OVuWkVdqWfqxFEHB12tODoQb470e7TB7T+r78U3g=
+			WpKBO3a9ZuG/AYp4umsr8loc/Qlj8q1VSyCYX/sFnUA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Headers/HDI_Charts_swift-Swift.h</key>
@@ -261,22 +261,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DsrSl5v3rXY08iJsPXykfMP/+r4=
+			8w2m0fIXyAGX8qLVfxt0KQ3xMbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ehk3PSZmoqCcilukfP1M1iDdn6+aM6zJSmE/a/RBkCs=
+			QG/wXg9KG331WAX+1fn/frDkh2GAA+BQJ/9gjadlFuY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nhPsGU/B1VhuCD9Nf/QCOkxO5bY=
+			6phJjLnKPfZHaGKybiSj9ileRKc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NBa7ZQJgeVbg2Pysz7KXKPH6qrDnU7hq7V9hrPqDVA0=
+			uZoeC+Io5T6VgukWDJ/l2p2juB3eIAB2w31mkIzN+u0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -294,33 +294,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nhPsGU/B1VhuCD9Nf/QCOkxO5bY=
+			6phJjLnKPfZHaGKybiSj9ileRKc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NBa7ZQJgeVbg2Pysz7KXKPH6qrDnU7hq7V9hrPqDVA0=
+			uZoeC+Io5T6VgukWDJ/l2p2juB3eIAB2w31mkIzN+u0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DsrSl5v3rXY08iJsPXykfMP/+r4=
+			8w2m0fIXyAGX8qLVfxt0KQ3xMbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ehk3PSZmoqCcilukfP1M1iDdn6+aM6zJSmE/a/RBkCs=
+			QG/wXg9KG331WAX+1fn/frDkh2GAA+BQJ/9gjadlFuY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8L6m7M42EGcbnaj4KeCWcrn/Tao=
+			cYP5Sx2uY0bjSqOfiS9FkEINU5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			U+JcHZ7Sb0e+abnzDS1Bepqkp+X4AX3XsujeGq7EcuM=
+			wCRrw+BFQvSnX5WbCO0N8V/AqDtt0ydBd+epicYNRvc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/HDI_Charts_swift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -338,11 +338,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8L6m7M42EGcbnaj4KeCWcrn/Tao=
+			cYP5Sx2uY0bjSqOfiS9FkEINU5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			U+JcHZ7Sb0e+abnzDS1Bepqkp+X4AX3XsujeGq7EcuM=
+			wCRrw+BFQvSnX5WbCO0N8V/AqDtt0ydBd+epicYNRvc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HDI_Charts_swift.framework/Modules/module.modulemap</key>
@@ -360,11 +360,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FHAdab4jqbvXFNgfKcpJ3qDqlBI=
+			GvPo99GJfvH5Mhnaz1ja5HNrsuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			EInZ5Pr72cSz6y23kSYbsKfmprl0JvAvzrakJO+mFes=
+			uokEwJm5ov25K6UZ0b8HzBfGuhwVDDzV5cVnbxKTblg=
 			</data>
 		</dict>
 	</dict>
