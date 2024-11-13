@@ -84,10 +84,10 @@ ZStack {
 
 ### Example
 
-<img width="500" alt="Radial Range Chart" src="https://github.com/user-attachments/assets/f4d8f457-1cfc-4af7-8092-0472e00d8c7c">
+<img width="500" alt="Heatmap" src="https://github.com/user-attachments/assets/68cc86e9-99fb-4d50-b4ed-a6c51624c68a">
 
 ```swift
- GenericHeatmapView(
+ CalendarHeatmapView(
     data: sampleData,
     frameSize: 200,
     maxColor: .green,
